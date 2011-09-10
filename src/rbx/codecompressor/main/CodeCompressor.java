@@ -55,8 +55,12 @@ public class CodeCompressor {
             System.exit(0);     // exits
         }*/
         
-        String sourcefile   = "/Users/Diego/archivos.txt";//args[0];
-        String outputfile   = "/Users/Diego/Dev/php/account/public_html/app/js/common.min.js";//args[1];
+        //String sourcefile   = "/Users/Diego/archivos.txt";//args[0];
+        //String outputfile   = "/Users/Diego/Dev/php/account/public_html/app/js/common.min.js";//args[1];
+        //String filetype     = args[2];
+        
+        String sourcefile   = args[0];
+        String outputfile   = args[1];
         //String filetype     = args[2];
         
         List<String> filelst = ccomp.readSourceFile(sourcefile);
